@@ -5,4 +5,5 @@ langchain-community
 langchain-groq
 langchain-core
 chromadb~=1.3.4
+beautifulsoup4
 
