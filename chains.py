@@ -20,6 +20,7 @@ class Chain:
             The scraped text is from the career's page of a website.
             Your job is to extract the job postings and return them in JSON format containing the following keys: `role`, `experience`, `skills` and `description`.
             Only return the valid JSON.
+            Create only one post. 
             ### VALID JSON (NO PREAMBLE):
             """
         )
@@ -57,4 +58,5 @@ class Chain:
         return res.content
 
 if __name__ == "__main__":
+
     print(os.getenv("GROQ_API_KEY"))
